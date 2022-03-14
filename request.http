@@ -1,0 +1,16 @@
+### Index request
+GET http://localhost:3000/songs
+
+### Show request
+GET http://localhost:3000/songs/3
+
+### Post request (create)
+POST http://localhost:3000/songs
+Content-Type: application/json
+
+{
+  "title": "Duality",
+  "album": "Vol",
+  "artist": "Slipknot",
+  "year": 2004
+}
